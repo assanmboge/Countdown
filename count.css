@@ -1,0 +1,25 @@
+body {
+    background-color: slategray;
+}
+
+.container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+label, input {
+    font-size: 20px;
+}
+#lbl {
+    color: aliceblue;
+}
+button {
+    font-size: 30px;
+    border: 2px;
+    border-radius: 5px;
+    background: burlywood;
+}

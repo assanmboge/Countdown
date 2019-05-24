@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="count.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Count Down Timer</title>
+</head>
+<body>
+
+    <div class="container">
+            <label id="lbl" for="">START DATE</label>
+            <input type="date" name="startingDate" id="startDate"><br>
+           
+            <label id="lbl" for="">END DATE</label>
+            <input type="date" name="endingDate" id="endDate"><br>
+            <p id="timer_value"></p>
+            <p id="finish"></p>
+           <button onclick="countDown()"> Calculate</button>
+    </div>
+        
+
+       
+        <script type="text/javascript" src="count.js"></script>
+</body>
+</html>
